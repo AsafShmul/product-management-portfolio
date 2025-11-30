@@ -1,0 +1,67 @@
+# 🎨 Design
+
+## Overview
+The design focuses on making crowding reporting effortless and crowding information easy to understand. Simplicity and clarity are prioritized to encourage adoption and build rider trust.
+
+---
+
+## Design Principles
+- **Low friction**: Reporting should take no more than one tap.
+- **Clarity**: Crowding indicators must be simple and universally understood.
+- **Consistency**: Visual language aligned with existing transit app UI.
+- **Accessibility**: WCAG-compliant colors, text, and icons.
+
+---
+
+## User Flow
+
+### Reporting
+1. **In-ride widget**: Riders see a floating button to report crowding.
+2. **One-tap action**: Tap once to select crowding level (low/medium/high).
+3. **Confirmation**: Subtle toast message confirms submission.
+4. **Post-ride prompt**: Optional notification asking for feedback after disembarking.
+
+### Viewing
+1. **Trip planner**: Crowding indicators displayed alongside route options.
+2. **Vehicle detail screen**: Real-time crowding level shown with icon + text.
+3. **Consistency check**: Confidence score subtly indicated (e.g., “High confidence”).
+
+---
+
+## Visual Elements
+- **Crowding scale**: Three levels represented by icons and color coding:
+  - Green = Low crowding
+  - Yellow = Medium crowding
+  - Red = High crowding
+- **Reporting button**: Circular floating action button with crowd icon.
+- **Confidence indicator**: Small badge (✓ High, ~ Medium, ? Low).
+
+---
+
+## Wireframe Concepts
+- **Reporting widget**: Minimalist button with three selectable states.
+- **Trip planner integration**: Crowding icons next to departure times.
+- **Post-ride prompt**: Lightweight card with “How crowded was your ride?” and three options.
+
+---
+
+## Figma Artifacts
+- [Reporting Flow Prototype](#)  
+- [Trip Planner Integration](#)  
+- [Post-Ride Prompt Mockup](#)  
+
+*(Replace `#` with actual Figma links once uploaded.)*
+
+---
+
+## Accessibility Considerations
+- Color-blind friendly palette (use icons + text, not color alone).
+- Tap targets ≥ 44px for mobile usability.
+- Screen reader labels for crowding levels and reporting actions.
+
+---
+
+## Next Steps
+- Validate wireframes with 5–10 riders in usability testing.
+- Iterate on iconography and color palette based on accessibility feedback.
+- Prepare high-fidelity Figma prototypes for engineering handoff.
