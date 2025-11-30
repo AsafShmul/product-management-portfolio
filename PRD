@@ -1,0 +1,85 @@
+# 📄 Product Requirements Document (PRD)
+
+## Product: Public Transit Crowding Reporting
+
+---
+
+## Executive Summary
+This feature enables riders to report and view real-time crowding levels in public transit vehicles. By reducing friction in reporting and simplifying how crowding data is displayed, we aim to increase participation, improve data quality, and enhance rider trust in trip planning.
+
+---
+
+## Goals
+- Increase rider participation in crowding reporting by reducing friction
+- Improve consistency and reliability of submitted data
+- Provide clear, actionable crowding information to riders during trip planning
+- Strengthen trust and satisfaction with the transit app
+
+---
+
+## Non-Goals
+- Predicting crowding levels without user input (e.g., sensor-based solutions)
+- Modifying transit agency scheduling or fleet management
+- Long-term gamification systems beyond lightweight incentives
+
+---
+
+## User Stories
+- **As a rider**, I want to quickly report crowding levels with one tap so that I can contribute without disrupting my trip.  
+- **As a rider**, I want to see simple, reliable crowding indicators (e.g., low/medium/high) so I can choose a less crowded vehicle.  
+- **As a rider**, I want to be prompted after my ride to report crowding so that I can provide accurate feedback.  
+- **As a transit operator**, I want aggregated crowding data to be consistent and reliable so that I can optimize service planning.  
+
+---
+
+## Requirements
+
+### Functional
+- **Reporting Flow**
+  - One-tap reporting widget available during and after rides
+  - Post-ride prompt to encourage feedback
+  - Simplified 3-level crowding scale (low/medium/high)
+- **Data Aggregation**
+  - Confidence scoring based on recency and reporter reliability
+  - Cross-checking overlapping reports for consistency
+- **Display**
+  - Real-time crowding indicators shown in trip planner and vehicle details
+  - Clear visual design with minimal cognitive load
+
+### Non-Functional
+- **Performance**
+  - Data aggregation latency ≤ 30 seconds (p95)
+- **Reliability**
+  - False-positive crowding alerts ≤ 10%
+- **Usability**
+  - Reporting flow completion rate ≥ 80%
+- **Accessibility**
+  - WCAG-compliant design for color and text contrast
+
+---
+
+## Success Metrics
+- **Adoption**: +20% reporters/MAU  
+- **Data Quality**: +30% consistency across reports  
+- **Satisfaction**: +10 Net Experience Score (NXS)  
+
+---
+
+## Risks & Mitigations
+- **Low participation** → Mitigation: one-tap reporting, lightweight incentives  
+- **Inaccurate reports** → Mitigation: confidence scoring, cross-check validation  
+- **Notification fatigue** → Mitigation: limit prompts to once per trip, allow opt-out  
+
+---
+
+## Dependencies
+- Backend services for data aggregation and scoring  
+- Frontend support for reporting widget and crowding display  
+- Analytics pipeline for metrics tracking  
+
+---
+
+## Open Questions
+- Should crowding indicators be standardized across agencies or customizable per region?  
+- How do we handle conflicting reports in real time (e.g., one rider reports “low” while another reports “high”)?  
+- What incentives beyond gamification could sustainably drive participation?  
