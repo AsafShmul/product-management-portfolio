@@ -1,0 +1,74 @@
+# 📊 Experiments & Analytics
+
+## Overview
+To validate our strategy and PRD, we will run structured experiments and track analytics that measure adoption, data quality, and rider satisfaction. Each experiment is tied to a hypothesis and success metric.
+
+---
+
+## Experiment Design
+
+### Experiment 1: One-Tap Reporting
+- **Hypothesis**: One-tap reporting increases participation
+- **Method**: A/B test — one-tap widget vs. standard reporting flow
+- **Metrics**: % of MAU reporting weekly, time-to-report, completion rate
+- **Duration**: 4 weeks
+- **Success Criteria**: +20% reporters/MAU
+
+### Experiment 2: Post-Ride Prompt
+- **Hypothesis**: Post-ride prompt improves data quality
+- **Method**: A/B test — immediate vs. post-ride prompt
+- **Metrics**: Agreement rate across overlapping reports, opt-out rate
+- **Duration**: 4 weeks
+- **Success Criteria**: +15% consistency
+
+### Experiment 3: Simplified 3-Level Display
+- **Hypothesis**: Simplified crowding display boosts trust
+- **Method**: A/B test — 3-level vs. 5-level crowding UI
+- **Metrics**: Net Experience Score (NXS), trip re-routing based on crowding info
+- **Duration**: 6 weeks
+- **Success Criteria**: +10 NXS uplift
+
+---
+
+## Analytics Plan
+
+### Dashboards
+- **Adoption Dashboard**
+  - Reporters/MAU trend
+  - Tap-through rate on prompts
+  - Reporting flow completion funnel
+
+- **Data Quality Dashboard**
+  - Agreement rate across overlapping reports
+  - False-positive crowding alerts
+  - Confidence score distribution
+
+- **Satisfaction Dashboard**
+  - Net Experience Score (NXS)
+  - Post-ride survey accuracy feedback
+  - Trip re-routing behavior
+
+### Leading Indicators
+- Tap-through rate on reporting prompts
+- Median time-to-report
+- Drop-off at each step in reporting flow
+
+### Guardrails
+- False-positive crowding alerts ≤ 10%
+- Notification opt-out rate ≤ 15%
+- Data aggregation latency ≤ 30s (p95)
+
+---
+
+## Tools & Instrumentation
+- **Event tracking**: In-app analytics SDK (e.g., Mixpanel, Amplitude)
+- **Surveys**: Post-ride micro-surveys for satisfaction
+- **Data pipeline**: Aggregation + confidence scoring in backend
+- **Visualization**: Dashboards in BI tool (e.g., Looker, Tableau)
+
+---
+
+## Next Steps
+- Implement event tracking for reporting flow
+- Launch first A/B test (one-tap reporting)
+- Monitor dashboards weekly and iterate based on results
