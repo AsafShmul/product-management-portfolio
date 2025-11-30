@@ -1,0 +1,53 @@
+# 📚 Learnings
+
+## Overview
+This section reflects on what worked well, what challenges we faced, and how the project shaped my approach as a product manager. Documenting learnings ensures continuous improvement and demonstrates growth mindset.
+
+---
+
+## Key Learnings
+
+### 1. Adoption Requires Simplicity
+- Riders are more likely to participate when reporting is frictionless.
+- One-tap reporting significantly lowered barriers compared to multi-step flows.
+- **Takeaway**: Always prioritize ease of use in feature design.
+
+### 2. Data Quality Improves with Structured Prompts
+- Post-ride prompts yielded more consistent reports than in-ride submissions.
+- Confidence scoring helped filter out noisy data.
+- **Takeaway**: Data reliability depends on both UX design and backend validation.
+
+### 3. Trust is Built Through Transparency
+- Riders trusted crowding indicators more when they understood how data was aggregated.
+- Simplified 3-level display reduced confusion compared to granular scales.
+- **Takeaway**: Clear communication of how features work increases user confidence.
+
+### 4. Experimentation is Essential
+- A/B testing revealed unexpected behaviors (e.g., some riders ignored prompts but engaged with passive indicators).
+- Iteration based on analytics was key to refining the product.
+- **Takeaway**: Hypotheses must be tested, not assumed.
+
+### 5. Balance Between Engagement and Fatigue
+- Frequent prompts risked notification fatigue.
+- Lightweight gamification (streaks, badges) encouraged participation without overwhelming users.
+- **Takeaway**: Engagement tactics must be balanced with user tolerance.
+
+---
+
+## Personal Growth as a PM
+- Strengthened skills in **prioritization** (RICE framework) and **trade-off analysis**.
+- Improved ability to design **measurable success metrics** and guardrails.
+- Learned to connect **user research → strategy → PRD → design → experiments → GTM** in a cohesive narrative.
+- Developed a deeper appreciation for **cross-functional collaboration** (design, engineering, data).
+
+---
+
+## What I’d Do Differently Next Time
+- Involve riders earlier in co-design workshops to validate assumptions.
+- Explore agency partnerships sooner to align incentives.
+- Build stronger feedback loops between reporting and visible outcomes for riders.
+
+---
+
+## Conclusion
+This project demonstrated the importance of simplicity, transparency, and experimentation in product development. It reinforced that successful products are not just built — they are continuously tested, refined, and communicated clearly to users.
