@@ -1,0 +1,75 @@
+# 🗺️ Roadmap & Go-To-Market (GTM)
+
+## Overview
+The roadmap outlines how we will deliver the crowding reporting feature in phases, while the GTM plan ensures riders adopt and trust the new functionality. Both are designed to balance speed, quality, and user engagement.
+
+---
+
+## Roadmap
+
+### Phase 1 — MVP (Month 1–2)
+- Implement one-tap reporting widget
+- Basic aggregation of reports (no confidence scoring yet)
+- Display simplified 3-level crowding indicators in trip planner
+- Internal testing with small rider group
+
+### Phase 2 — Beta (Month 3–4)
+- Add post-ride reporting prompt
+- Introduce confidence scoring for data reliability
+- Launch A/B tests for reporting flows and display variations
+- Expand rollout to 25% of rider base
+
+### Phase 3 — Full Launch (Month 5–6)
+- Roll out to 100% of riders
+- Integrate dashboards for adoption, data quality, satisfaction
+- Optimize notification frequency to reduce fatigue
+- Begin lightweight gamification (reporting streaks)
+
+### Phase 4 — Optimization (Month 7+)
+- Iterate based on experiment results
+- Explore advanced incentives (partnerships, rewards)
+- Investigate integration with agency scheduling systems
+- Continuous monitoring and improvement
+
+---
+
+## Go-To-Market Strategy
+
+### Target Audience
+- Primary: Daily commuters using transit app
+- Secondary: Transit agencies seeking reliable crowding data
+
+### Positioning
+- **Value proposition**: “Plan smarter trips with real-time crowding info you can trust.”
+- **Differentiator**: Rider-sourced, simple, and reliable crowding reporting
+
+### Channels
+- In-app onboarding tutorial highlighting new reporting feature
+- Push notifications introducing one-tap reporting
+- Social media campaigns showcasing rider benefits
+- Partnerships with transit agencies for co-promotion
+
+### Adoption Tactics
+- **Education**: Tooltips and microcopy explaining how to report crowding
+- **Incentives**: Lightweight gamification (streaks, badges)
+- **Trust-building**: Transparency on how reports are aggregated and displayed
+
+### Success Metrics
+- Adoption: +20% reporters/MAU within 2 months of launch
+- Data quality: +30% consistency across reports
+- Satisfaction: +10 NXS uplift
+- Opt-out rate ≤ 15%
+
+---
+
+## Risks & Mitigation
+- **Low awareness** → Mitigation: strong in-app onboarding and push campaigns  
+- **Notification fatigue** → Mitigation: limit prompts to once per trip, allow opt-out  
+- **Agency skepticism** → Mitigation: share aggregated dashboards and case studies  
+
+---
+
+## Next Steps
+- Finalize MVP designs and engineering specs
+- Prepare onboarding assets and marketing copy
+- Align with transit agencies for beta rollout
